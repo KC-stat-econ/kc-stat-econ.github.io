@@ -90,6 +90,18 @@ p {
   margin: 0 0 18px;
 }
 
+.portrait {
+  float: right;
+  width: min(34%, 230px);
+  margin: 3px 0 18px 28px;
+}
+
+.portrait img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 ul {
   margin: 0 0 22px 1.4rem;
   padding: 0;
@@ -138,5 +150,12 @@ footer p {
 
   h1 {
     font-size: 1.75rem;
+  }
+
+  .portrait {
+    float: none;
+    width: 100%;
+    max-width: 320px;
+    margin: 0 0 22px;
   }
 }
